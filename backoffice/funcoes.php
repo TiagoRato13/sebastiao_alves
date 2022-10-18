@@ -2,6 +2,9 @@
 
 require_once "../configuracoes/base_dados.php";
 
+date_default_timezone_set('Europe/Lisbon');
+
+
 function login($name, $pass){
 
     $sql = "SELECT * FROM admins WHERE nome='$name' AND pass='$pass'";
