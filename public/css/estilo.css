@@ -1,0 +1,444 @@
+/* FONTS */
+
+@font-face {
+    font-family: "ibmlight";
+    src: url("Fonts/IBMPlexSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "ibmmedium";
+    src: url("Fonts/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "ibmbold";
+    src: url("Fonts/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "latoblack";
+    src: url("Fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: "latobold";
+    src: url("Fonts/Lato-Bold.ttf");
+}
+
+/*COLORS
+CINZA 1D: RGB:29,29,29
+CINZA 70: color: rgb(112, 112, 112);
+CINZA 4D: color: rgb(77,77,77);
+
+DOURADO B4: color: rgb(180, 125, 51);
+DOURADO B1: color: rgb(177, 126, 59);
+DOURADO A9: color: rgb(169, 115, 57);
+
+BRANCO: RGB: 255,255,255
+PRETO: RGB: 0,0,0
+*/
+
+/* CSS */
+
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/*======================CABEÇALHO ======================*/
+
+.cabecalho{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+
+    text-align: center;
+    margin-top: 52px;
+}
+
+.titulo-cabecalho {
+    font-family: ibmbold;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+}
+
+#linha {
+    height: 1px;
+    background-color: rgb(112, 112, 112);
+    max-width: 1170px;
+    margin: auto;
+}
+
+/*NAVBAR*/
+
+.navbar-size {
+    background-color: none !important;
+    margin: 0px;
+}
+
+.menus-nav {
+    text-align: center;
+}
+
+.nav-link {
+    font-family: latoblack;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77) !important;
+    margin-right: 20px;
+}
+
+.nav-item>.active,.nav-link:hover {
+    color: rgb(180, 125, 51) !important;
+}
+
+.dropdown-menu{
+    padding: 18px 5px 20px 5px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 5px 10px rgba(77, 77, 77, 0.3);
+}
+
+.submenu-livros{
+    font-family: ibmmedium;
+    font-size: 13px;
+    padding: 6px 25px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+}
+
+.submenu-livros:hover{
+    color: rgb(177, 126, 59);
+    background-color: transparent !important;
+}
+
+/* CAROUSEL */
+.carousel-size{
+    margin: 0px !important;
+}
+
+.carousel{
+    padding: 0px;
+}
+
+.carousel-image{
+    height: 730px;
+}
+
+.texto-carosel{
+    position: absolute !important;
+    left: 200px;
+    top: 250px;
+    width: 40%;
+    text-align: left;
+}
+
+.titulo, .novidades{
+    text-transform: uppercase;
+}
+
+.titulo, .descricao-livro, .topo{
+    margin-top: 15px;
+}
+
+.novidades{
+    font-family: ibmbold;
+    color: rgb(180, 125, 51);
+}
+
+.titulo{
+    width: 95%;
+    font-family: ibmlight;
+    line-height: 40px;
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+}
+
+.descricao-livro{
+    margin-top: 25px;
+    font-family: ibmlight;
+    font-size: 13px;
+    color: rgb(77, 77, 77);
+}
+
+.botao-saber-mais{
+    width: 120px;
+    height: 30px;
+    background-image: url("../Fotos/desktop/sabermais1.svg") !important;
+}
+
+.botao-saber-mais:hover {
+    background-image: url("../Fotos/desktop/sabermais2.svg") !important;
+}
+
+.botao-banner {
+    margin-left: 200px;
+    margin-right: 568px;
+    bottom: 85px;
+    justify-content: flex-start;
+    gap: 12px
+}
+
+.carousel-indicators>button {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: transparent !important;
+    background-image: url("../Fotos/desktop/bolabanner1.svg");
+}
+
+.carousel-indicators>button.active {
+    background-image: url("../Fotos/desktop/bolabanner2.svg");
+}
+
+/* ====================== MAIN ====================== */
+
+/* ÁREA BEM VINDO */
+.caixa-branca {
+    margin-top: -45px !important;
+    margin-bottom: 0px !important;
+    padding: 60px;
+    width: 1190px !important;
+    min-height: 538px;
+}
+
+.card-body {
+    padding: 0px !important;
+    margin: 0px 25px;
+}
+
+.card {
+    margin: 0px 0px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.4);
+    border: none !important;
+    border-radius: 0px !important;
+    width: auto;
+}
+
+.img-bem-vindo{
+    box-shadow: 4px 5px 10px rgba(77, 77, 77, 0.4);
+    width: 312px;
+    height: 396px;
+}
+
+.card-title{
+    margin: 20px 0px 35px 0px;
+    font-family: ibmbold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+}
+
+.card-text {
+    font-family: ibmlight;
+    text-align: justify !important;
+    font-size: 13px !important;
+    color: rgb(77, 77, 77);
+    margin: 0px;
+    line-height: 17px !important;
+}
+
+#botao-bem-vindo{
+    margin-top: 100px;
+}
+
+/* ULTIMOS LIVROS */
+.caixa-ultimos-livros{
+    width: 90%;
+    margin: 85px auto 0px auto;
+}
+
+#titulo-ultimos-livros{
+    font-family: ibmbold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+    margin-bottom: 23px;
+}
+
+.texto-ultimos-livros{
+    font-family: ibmlight;
+    text-align: justify !important;
+    font-size: 13px !important;
+    color: rgb(77, 77, 77);
+    line-height: 18px;
+    margin: 0px;
+}
+
+/* CARDS */
+.caixa-cards{
+    width: 92%;
+    margin: 70px auto 100px auto;
+}
+
+.card-size{
+    width: 343px !important;
+    height: 760px !important;
+}
+
+.imagem-cards{
+    height: 428px !important;
+}
+
+.titulo-card {
+    margin-top: 30px;
+    height: 80px;
+    font-family: ibmbold;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+}
+
+.categoria {
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: rgb(180, 125, 51);
+}
+
+.livros-card-text {
+    height: 110px;
+    margin-top: 10px;
+    font-family: ibmlight;
+    font-size: 13px !important;
+    color: rgb(77, 77, 77);
+    line-height: 18px;
+}
+
+.cardbutton {
+    width: 122px;
+    position: relative;
+    top: 10px;
+    left: 170px;
+
+}
+
+
+/* ====================== FOOTER ====================== */
+
+footer {
+    margin-bottom: 70px;
+}
+
+/* NAV BOTTOM */
+
+.linha-bottom {
+    height: 1px;
+    background-color: rgb(112, 112, 112);
+    margin: 5px 20px;
+}
+
+.nav-bottom {
+    font-size: 16px !important;
+}
+
+/* RODAPÉ */
+/* CONTACTOS*/
+.caixa-contactos{
+    margin-top: 50px;
+    padding-bottom: 30px !important;
+    width: 80%;
+}
+
+.caixa-contactos-footer{
+    width: 80%;
+}
+
+.contactos, .redes-sociais{
+    font-family: ibmbold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+}
+
+.contactos {
+    margin-bottom: 20px;
+}
+
+.margin-contactos{
+    margin-bottom: 60px;
+}
+
+.redes-sociais{
+    text-align: center !important;
+}
+
+.titulo-contactos {
+    font-family: ibmmedium;
+    font-size: 15px;
+    color: rgb(177, 126, 59);
+    text-transform: uppercase;
+}
+
+.conteudo-contactos {
+    margin-top: 6px;
+    font-family: ibmlight;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(77, 77, 77);
+}
+
+.icones-contactos{
+    margin-right: 25px;
+    padding: 0px;
+}
+
+#livro-reclamacoes{
+    width: 77px;
+    height: 31px !important;
+    padding: 0px !important;
+}
+
+#ralc{
+    width: 125px;
+    height: 29px;
+}
+
+/* REDES SOCAIS */
+.caixa-icons{
+    margin-top: 30px;
+}
+
+.icones-redes-sociais{
+    width: 37px;
+    height: 37px;
+    margin: 0px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#instagram{
+    background-image: url("../Fotos/desktop/instagram1.svg");
+}
+#instagram:hover{
+    background-image: url("../Fotos/desktop/instagram2.svg");
+}
+
+#facebook{
+    background-image: url("../Fotos/desktop/facebook1.svg");
+}
+
+#facebook:hover{
+    background-image: url("../Fotos/desktop/facebook2.svg");
+}
+
+#linkedin{
+    background-image: url("../Fotos/desktop/linkedin1.svg");
+}
+
+#linkedin:hover{
+    background-image: url("../Fotos/desktop/linkedin2.svg");
+}
+
+.texto-politica-cookies{
+    font-family: ibmlight;
+    font-size: 13px;
+    color: rgb(77,77,77);
+    text-transform: capitalize;
+    padding: 0px;
+}
+
+.caixa-contactos-footer{
+    margin-top: 20px;
+}

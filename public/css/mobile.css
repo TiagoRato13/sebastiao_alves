@@ -1,0 +1,308 @@
+.bla{
+    border: 1px solid red !important;
+}
+
+.ble{
+    border: 1px solid green !important;
+}
+
+@media all and (max-width:1199px){
+    
+    body{
+        max-width: 360px;
+    }
+
+/*======================CABEÇALHO ======================*/
+
+    .cabecalho {
+        max-width: 360px;
+        left: auto;
+    }
+    
+    .titulo-cabecalho{
+        width: 90%;
+        font-size: 18px;
+        margin: 18px auto 0px auto;
+        text-align: left;
+    }
+
+    .navbar-mobile{
+        position: absolute;
+        top: -50px;
+        left: 60px;
+    }
+
+    #linha{
+        max-width: 300px;
+        margin-top: 10px;
+    }
+
+/* NAVBAR */
+
+   .navbar-collapse{
+       width: 360px;
+       background-color: white;
+       position: absolute;
+       top: 54px;
+       right: -63px;
+       text-align: left;
+       padding: 22px 40px;
+   }
+
+   .dropdown-menu{
+    margin: 20px 0px!important;
+    }
+
+    .botao-nav-mobile{
+        background-color: transparent !important;
+        background-image: url("../Fotos/desktop/menu.svg") !important;
+        height: 25px !important;
+        width: 35px !important;
+        background-size: contain;
+    }
+
+    .botao-nav-mobile-x{
+        background-color: transparent !important;
+        background-image: url("../Fotos/desktop/fechar.svg") !important;
+        height: 25px !important;
+        width: 35px !important;
+        background-size: contain;
+    }
+
+    .navbar-toggler{
+        box-shadow: none !important;
+    }
+
+/* CAROUSEL */
+    .carousel-image{
+        width: 360px;
+        height: 760px;
+    }
+
+    .texto-carosel{
+        position: absolute !important;
+        left: 40px !important;
+        top: 325px;
+        width: 80%;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+    
+    .descricao-livro{
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .botao-saber-mais{
+        width: 101px;
+        height: 26px;
+        background-image: url("../Fotos/desktop/sabermais1.svg");
+    }
+
+    .botao-banner {
+        margin-left: 39px;
+        margin-right: 0px;
+        bottom: 0px;
+        justify-content: flex-start;
+        gap: 12px
+    }
+    
+/* ====================== MAIN ====================== */
+
+/* ÁREA BEM VINDO */
+    .caixa-branca {
+        margin-top: 0px !important;
+        padding: 10px;
+        width: 360px;
+    }
+
+    .caixa-branca-conteudo{
+        display: block;
+        text-align: center;
+    }
+
+    #botao-bem-vindo{
+        margin-top: 100px;
+    }
+
+    .caixa-menus-simples{
+        min-width: 360px !important;
+    
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .menu-menus-simples{
+        margin: 50px 0px 20px 30px;    
+    }
+
+    .imagem-menu-simples{
+        margin-top: 40px !important;
+    }
+
+    .foto-autor{
+        width: 300px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .card-text{
+        text-align: left !important;
+        line-height: 16px;
+    }
+
+    .img-bem-vindo {
+        width: 286px !important;
+        margin: 63px 0px 10px 0px;
+    }
+
+    .texto-menus-simples{
+        text-align: justify;
+    }
+
+    .imagem-livros{
+        width: 213px;
+        height: 330px;
+        margin: 60px 0px 30px 0px;
+        float: none;
+    }
+
+    #botao-bem-vindo {
+        margin: 20px 0px 50px 0px;
+    }
+
+    .botao-menu-simples-ver{
+        margin: 40px 0px 0px -25px;
+    }
+
+    .botao-menu-simples{
+        margin: 15px 0px 55px -40px !important;
+    }
+    
+    #texto_completo{
+        display: none;
+    }
+
+    #botao-ver-mais{
+        display: block;
+    }
+
+/* ULTIMOS LIVROS */
+
+    .caixa-ultimos-livros {
+        width: 88%;
+        margin: 80px auto;
+    }
+
+    #titulo-ultimos-livros {
+        font-size: 22px;
+    }
+    
+    .texto-ultimos-livros {
+        text-align: left !important;
+        line-height: 16px !important;
+    }
+
+/* CARDS */
+
+    .caixa-cards {
+        margin-bottom: 0px;
+    }
+
+    .card-size{
+        width: 285px !important;
+    }
+
+    /*.imagem-cards{   DESFORMATA A IMAGEM DE ACORDO COM O PRINT PRETENDIDO
+        height: 288px !important;
+    }*/
+
+    .cards-mobile{
+        margin-bottom: 70px;
+    }
+
+    .livros-card-text{
+        line-height: 16px;
+    }
+
+    .cardbutton{
+        width: 103px;
+        left: 130px;
+    }
+
+    .numeros > a{
+        font-size:22px;
+    }
+    
+    .numeros > a{
+        padding: 0px 12px;
+    }
+
+    .sub-caixa-contactos{
+        width: 100%;
+    }
+
+/* ====================== FOOTER ====================== */
+
+    .linha-separadora-bottom{
+        height: 1px;
+        width: 80%;
+
+        margin: 0px auto;
+        background-color: rgb(112, 112, 112);
+    }
+
+    .caixa-contactos{
+        width: 100%;
+        margin: auto;
+        margin-top: 80px;
+        justify-content: center;
+    }
+
+    .caixa-contactos-footer{
+        width: 100%;
+    }
+    
+    .contactos{
+        margin: 0px;
+    }
+
+    .contactos, .titulo-contactos, .conteudo-contactos{
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+    }
+    
+    .titulo-contactos{
+        margin-top: 20px;
+    }
+    .conteudo-contactos{
+        text-align: center;
+    }
+
+    .icones-contactos{
+        margin-right: 30px;
+    }
+
+    .texto-politica-cookies{
+        width: 70%;
+        margin: auto;
+    }
+
+    .linha-separadora-contactos{
+        margin: 40px auto 20px auto;
+    }
+
+}
+
+@media all and (max-width:767px){
+    .navbar-mobile{
+        position: absolute;
+        top: -50px;
+        left: 220px;
+    }
+}

@@ -1,0 +1,219 @@
+.caixa-menus-simples{
+    min-width: 1190px !important;
+    min-height: 130px;
+    background-color: white;
+    box-shadow: -5px 5px 10px rgba(128, 128, 128, 0.4);
+
+    margin-top: -45px !important;
+    margin-bottom: 65px !important;
+
+    
+
+    border: none !important;
+    border-radius: 0px !important;
+    z-index: 10;
+}
+
+.menu-menus-simples{
+    margin: 50px 0px 0px 95px;    
+    text-transform: uppercase;
+}
+
+.menu-menus-simples > h6{
+    margin-bottom: 10px;
+
+    font-family: latoblack;
+    font-size: 18px;
+    color: rgb(180, 125, 51);
+}
+
+.menu-menus-simples > h5{
+    font-family: ibmbold;
+    font-size: 25px;
+    color: rgb(77,77,77);
+}
+
+.imagem-menu-simples{ /* ajustado para corresponder a foto de projecto */
+    margin-bottom: 40px;
+}
+
+.imagem-livros{
+    width: 305px;
+    height: 471px;
+    float: left;
+    margin-right: 120px;
+}
+
+.texto-menus-simples{
+    line-height: 17px;
+    font-family: ibmlight;
+    font-size: 13px;
+    color: rgb(77,77,77);
+}
+
+.botao-menu-simples{
+    margin: 55px 0px 75px -170px !important;
+}
+
+.botao-menu-livros{
+    position: relative;
+    top: 0px;
+    left: 87%;
+}
+
+#texto_completo{
+    display: block;
+}
+
+#botao-ver-mais{
+    display: none;
+}
+
+.margins-menu-simples{
+    margin-bottom: 0px;
+}
+
+.ver-mais{
+    width: 90px;
+    height: 30px;
+    background-image: url("../Fotos/desktop/vermais.svg");
+}
+
+.ver-mais:hover{
+    background-image: url("../Fotos/desktop/vermais-cinza.svg");
+}
+
+.voltar-atras{    
+    width: 120px;
+    height: 30px;
+    background-image: url("../Fotos/desktop/voltar1.svg");
+}
+
+.voltar-atras:hover{
+    background-image: url("../Fotos/desktop/voltar2.svg");
+}
+
+/* IMPRENSA */
+
+.caixa-menu-imprensa{
+    box-shadow: 0px 8px 4px -4px rgba(77, 77, 77, 0.2) !important;
+}
+
+.sub-caixa-imprensa, .sub-caixa-contactos{
+    width: 72%;
+    margin: auto;
+}
+
+.sub-caixa-imprensa > h5{
+    font-family: ibmmedium;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+    padding: 0px;
+}
+
+.sub-caixa-imprensa > div{
+    font-family: ibmmedium;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: rgb(77, 77, 77);
+    padding: 0px;
+    text-align: right;
+}
+
+.sub-caixa-imprensa > img{
+    padding: 0px;
+    margin: 20px 0px 60px 0px;
+}
+
+.linha-lancamentos{
+    height: 1px;
+    background-color: rgb(169, 115, 57);
+    margin: auto;
+    margin: 4px 0px 12px 0px;
+    padding: 0px;
+}
+
+.data-publicacao{
+    text-align: right;
+    padding: 0px;
+    font-family: ibmmedium;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: rgb(77,77,77);
+}
+
+.texto-imprensa{
+    font-family: ibmlight;
+    font-size: 13px;
+    color: rgb(77,77,77);
+    text-transform: none;
+}
+
+.caixa-setas{
+    margin: 60px 0px 100px 0px;
+}
+
+.setas > div{
+    padding: 0px;
+    margin: 0px;
+}
+
+.numeros > a{
+    font-size: 22px;
+    font-family: ibmmedium;
+}
+
+.numeros > a:hover{
+    color: rgb(169, 115, 57);
+}
+
+.numeros > a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: rgb(77, 77, 77);
+}
+
+.seta_esquerda{
+    background-image: url("../Fotos/desktop/setaesquerda1.svg");
+}
+.seta_esquerda:hover{
+    background-image: url("../Fotos/desktop/setaesquerda2.svg");
+}
+
+.seta_direita{
+    background-image: url("../Fotos/desktop/setadireita1.svg");
+}
+
+.seta_direita:hover{
+    background-image: url("../Fotos/desktop/setadireita2.svg");
+}
+
+.seta_esquerda, .seta_direita{
+    margin: 0px 20px !important;
+    width: 20px !important;
+    height: 30px;
+    padding: 2px 10px !important;
+    background-repeat: no-repeat;
+}
+
+.pagina_activa{
+    color: rgb(169, 115, 57) !important;
+}
+
+/* CONTACTOS */
+
+.caixa-menu-contactos{
+    margin-bottom: 80px;
+}
+
+.sub-caixa-contactos{
+    padding: 0px;
+}
+
+.linha-separadora-contactos{
+    width: 60px;
+    margin: 40px auto 30px auto;
+    height: 1px;
+    background-color: rgb(112, 112, 112);
+}
