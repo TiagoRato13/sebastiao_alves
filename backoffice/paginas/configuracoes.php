@@ -3,7 +3,7 @@
 $id = $_SESSION["user"]["id"];
 
 $sql = "SELECT * FROM admins WHERE id=$id";
-$admins = selectSQLUnico($sql);
+$admins = $_SESSION["user"];
 
 ?>
 
@@ -22,7 +22,7 @@ $admins = selectSQLUnico($sql);
     <main>
         <div class="box" style="padding: 10px 0px">
             
-            <h3>Data de último acesso: <span><?= $admins["data_ultimo_acesso"] ;?></span></h3>
+            <h3>Data de último acesso: <span><?= $_SESSION["user"]["data_ultimo_acesso"] ;?></span></h3>
             <h4>Nome de Administrador: <span><?=$admins["nome"]; ?></span></h4>
             <h4>Email: <span><?=$admins["email"]; ?></span></h4>
             <h4>Password: <span><?=$admins["pass"]; ?></span></h4>
